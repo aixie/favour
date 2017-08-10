@@ -1,6 +1,9 @@
+.hide {
+  visibility: hidden;
+}
 body {
   position: relative;
-  height: 5000px;
+  height: 2000px;
   overflow-y: scroll;
 }
 .logo {
@@ -25,9 +28,12 @@ body {
 .jumb-content {
   padding-left: 150px;
 }
+.jumb-content span {
+  font-size: 24px;
+}
 .jumbotron {
   margin-bottom: 0px;
-  height: 480px;
+  height: 520px;
 }
 .jumbotron h1 {
   color: rgba(51, 51, 51, 0.8);
@@ -39,7 +45,7 @@ body {
 }
 .jumbotron .jumb-title {
   height: 30px;
-  margin-bottom: 50px;
+  margin-bottom: 40px;
   font-size: 32px;
 }
 .jumbotron .jumb-title strong {
@@ -47,10 +53,12 @@ body {
 }
 .jumbotron .jumb-text {
   font-size: 18px;
+  margin-top: 8px;
 }
 .jumbotron .jumb-btn {
-  margin-top: 20px;
-  margin-left: 550px;
+  float: right;
+  margin-top: -150px;
+  margin-right: 50px;
 }
 .jumbotron .jumb-btn a {
   color: rgba(51, 51, 51, 0.8);
@@ -63,5 +71,12 @@ body {
   margin-left: 30px;
 }
 .ModelContent {
+  height: 600px;
   margin-top: 20px;
+}
+.thumbnail img:hover {
+  transform: scale(1.1);
+}
+footer {
+  text-align: center;
 }

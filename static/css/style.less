@@ -1,9 +1,12 @@
 @jumbcolor:rgba(51, 51, 51, 0.8);
-
+// 全局样式
+.hide{
+    visibility:hidden;
+}
 // 滚动监听样式
 body{
 	position:relative;
-	height:5000px;
+	height:2000px;
 	overflow-y: scroll;
 }
 // 头部样式
@@ -29,10 +32,13 @@ body{
 // 巨幕样式
 .jumb-content{
     padding-left: 150px;
+    span{
+        font-size: 24px;
+    }
 }
 .jumbotron{
 	margin-bottom:0px;
-    height: 480px;
+    height: 520px;
     h1{	
     	color:@jumbcolor;
     	margin-top:80px;
@@ -44,7 +50,7 @@ body{
     .jumb-title{
     	height:30px;
     	// margin-left:20px;
-    	margin-bottom:50px;
+    	margin-bottom:40px;
     	font-size:32px;
     	strong {
     		color:@jumbcolor;
@@ -53,10 +59,12 @@ body{
     .jumb-text{
     	// margin-left:20px;
     	font-size:18px;
+        margin-top:8px;
     }
     .jumb-btn{
-    	margin-top:20px;
-    	margin-left:550px;
+        float: right;
+    	margin-top:-150px;
+    	margin-right:50px;
     	a{
     		color:@jumbcolor;
     		font-size:20px;
@@ -71,8 +79,12 @@ body{
 	}
 }
 .ModelContent{
+    height:600px;
 	margin-top:20px;
 }
-.thumbnail{
-	
+.thumbnail img:hover{
+	transform: scale(1.1);
+}
+footer{
+    text-align: center;
 }

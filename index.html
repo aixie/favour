@@ -5,6 +5,7 @@
 		<title>帮个忙</title>
 		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="static/css/style.css">
+		<link rel="stylesheet" type="text/css" href="static/css/animate.css">
 		<link href="favicon.ico" rel="icon" type="image/x-icon" />
 		<link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
 		<link href="favicon.ico" rel="bookmark">
@@ -51,10 +52,11 @@
 		<div class="jumbotron" id="jumbotron">
 			<div class="container">
 				<div class="jumb-content">
-					<h1>帮个忙<small> 0.0.1版本</small></h1>
+					<h1>帮个忙<span> 0.0.1版本</span></h1>
 					<p class="jumb-title">开启<strong> 全民 </strong>随时随地兼职时代 !</p>
 					<p class="jumb-text">生活处处离不开所有人，当我们希望有人帮助的时候，帮个忙为你快速找到那个他（她）。</p>
-					<p class="jumb-text">帮个忙提供两种方式：1.无偿无交易积累积分制度。2.有偿有交易积累积分制度。无论你是闲时想帮助他人、想快速兼职赚取金钱的帮助者，还是想得到帮助的求助者，都赶快行动吧！</p>
+					<p class="jumb-text">帮个忙提供两种方式：<br>1.无偿无交易积累积分制度。<br>2.有偿有交易积累积分制度。</p>
+					<p class="jumb-text">无论你是闲时想帮助他人、想快速兼职赚取金钱的帮助者，还是想得到帮助的求助者，都赶快行动吧！</p>
 					<p class="jumb-btn"><a class="btn btn-default btn-bg" href="#" role="button">Let's Go!</a></p>
 				</div>
 			</div>
@@ -69,8 +71,8 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-6 col-md-3">
-								<div class="thumbnail">
-									<img src="static/img/xingli.jpg" class="img-responsive" alt="提行李">
+								<div class="thumbnail leftanimate hide">
+									<img src="static/img/xingli.png" alt="提行李">
 									<div class="caption">
 										<h3>提行李</h3>
 										<p>在行李很多，身边又没有朋友的时候。你希望有人能够帮你</p>
@@ -79,8 +81,8 @@
 								</div>
 							</div>
 							<div class="col-xs-6 col-md-3">
-								<div class="thumbnail">
-									<img src="static/img/camera.jpg" alt="帮拍照">
+								<div class="thumbnail leftanimate hide">
+									<img src="static/img/camera.png" alt="帮拍照">
 									<div class="caption">
 										<h3>帮拍照</h3>
 										<p>在你出门旅游到了风景优美的地方，希望有人能帮你们多拍几张合照</p>
@@ -89,8 +91,8 @@
 								</div>
 							</div>
 							<div class="col-xs-6 col-md-3">
-								<div class="thumbnail">
-									<img src="static/img/xiangyan.jpg" alt="帮买烟">
+								<div class="thumbnail rightanimate hide">
+									<img src="static/img/xiangyan.png" alt="帮买烟">
 									<div class="caption">
 										<h3>帮买烟</h3>
 										<p>在你没烟的时候，却离开此刻所在的地方，你想能有人帮你买盒烟吗</p>
@@ -99,8 +101,8 @@
 								</div>
 							</div>
 							<div class="col-xs-6 col-md-3">
-								<div class="thumbnail">
-									<img src="static/img/other.jpg" alt="其它">
+								<div class="thumbnail rightanimate hide">
+									<img src="static/img/other.png" alt="其它">
 									<div class="caption">
 										<h3>其它</h3>
 										<p>当你在生活中遇到困难的时候，总是希望有人能够帮助你。</p>
@@ -123,8 +125,8 @@
 					<div class="container">
 						<div class="row">
 							<div class="col-xs-6 col-md-3">
-								<div class="thumbnail">
-									<img src="static/img/meitu.jpg" class="img-responsive" alt="帮P图">
+								<div class="thumbnail leftanimate1 hide">
+									<img src="static/img/meitu.png" class="img-responsive" alt="帮P图">
 									<div class="caption">
 										<h3>帮P图</h3>
 										<p>当你在朋友圈中想发图时，却觉得自己拍的图不好看，需要P图</p>
@@ -133,8 +135,8 @@
 								</div>
 							</div>
 							<div class="col-xs-6 col-md-3">
-								<div class="thumbnail">
-									<img src="static/img/baogao.jpg" alt="帮写稿">
+								<div class="thumbnail leftanimate1 hide">
+									<img src="static/img/baogao.png" alt="帮写稿">
 									<div class="caption">
 										<h3>帮写稿</h3>
 										<p>当任务多，无法完成一些简单可由其它人代你完成的稿子报告时。</p>
@@ -143,8 +145,8 @@
 								</div>
 							</div>
 							<div class="col-xs-6 col-md-3">
-								<div class="thumbnail">
-									<img src="static/img/dazi.jpg" alt="买码字">
+								<div class="thumbnail rightanimate1 hide">
+									<img src="static/img/dazi.png" alt="买码字">
 									<div class="caption">
 										<h3>帮码字</h3>
 										<p>自己打字速度慢，却需要电子版的文档，需要一个快捷的方式帮助我</p>
@@ -153,8 +155,8 @@
 								</div>
 							</div>
 							<div class="col-xs-6 col-md-3">
-								<div class="thumbnail">
-									<img src="static/img/other.jpg" alt="其它">
+								<div class="thumbnail rightanimate1 hide">
+									<img src="static/img/other.png" alt="其它">
 									<div class="caption">
 										<h3>其它</h3>
 										<p>当你在互联网中遇到困难的时候，总是希望有人能够帮助你。</p>
@@ -167,11 +169,41 @@
 				</div>
 			</div>
 		</section><!-- 互联网部分结束 -->
+		<footer>
+			@xiebo0707
+			<p>Thanks Everyone</p>
+		</footer>
 
 
 		<script src="static/js/bootstrap.min.js"></script>
 		<script type="text/javascript">
-			$('body').scrollspy({ target: '#bs-example-navbar-collapse-1' });
-		</script>
+			
+			$(function() {
+				$('body').scrollspy({ target: '#bs-example-navbar-collapse-1' });
+				var nav = 100;
+				var nav1 = 800;
+				$(window).scroll(function() {
+					var scrollPos = $(window).scrollTop();
+					if (scrollPos >= nav) {
+						$(".leftanimate").removeClass("hide");
+						$(".rightanimate").removeClass("hide");
+						$(".leftanimate").addClass("animated bounceInLeft"); 
+						$(".rightanimate").addClass("animated bounceInRight");
+					} else {
+						$(".leftanimate").removeClass("bounceInLeft");
+						$(".rightanimate").removeClass("bounceInRight");
+					}
+					if (scrollPos >= nav1) {
+						$('.leftanimate1').removeClass("hide");
+						$(".rightanimate1").removeClass("hide");
+						$(".leftanimate1").addClass("animated bounceInLeft"); 
+						$(".rightanimate1").addClass("animated bounceInRight");
+					} else {
+						$(".leftanimate1").removeClass("bounceInLeft");
+						$(".rightanimate1").removeClass("bounceInRight");
+					}
+				});
+			});
+		 </script>
 	</body>
 </html>
