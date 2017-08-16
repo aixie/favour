@@ -8,4 +8,4 @@
 * ...
 ### 项目页面
 * bootstrap框架
-* 项目展示页面[点击链接](http://xiebo0707.github.io/favour)
+* 项目展示页面[点击链接](http://aixie.github.io/favour)
